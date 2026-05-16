@@ -1,0 +1,31 @@
+# a=int(input('enter a number'))
+# b=int(input('enter another number'))
+# print('sum :',a+b)
+# print('diff :',a-b)
+class Calculations:
+    def add(self, n1, n2):
+        return n1 + n2
+
+    def sub(self, n1, n2):
+        return n1 - n2
+
+    def mul(self, n1, n2):
+        return n1 * n2
+
+    def div(self, n1, n2):
+        return n1 / n2
+
+    def ne(self, n1 ,n2):
+        if n1 == n2:
+            return True
+        else:
+            return False
+
+    def area_of_square(self, side):
+        return side * side
+
+    def peri_of_rect(self, l, b):
+        return 2 * (l + b)
+
+
+
